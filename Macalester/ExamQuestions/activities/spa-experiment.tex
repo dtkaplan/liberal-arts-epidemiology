@@ -1,0 +1,62 @@
+%% Author : Daniel Kaplan
+%% Subject: Spread of Disease, index case
+%% Title: Find the Source of the Infection
+
+Here is the data from an experiment conducted in Mr. Dyar's 7th grade class at the Saint Paul Academy.
+
+Each student was given a small cup of water.  But one student had a cup with a small amount of acid.  The water represented a healthy person, the acid a person with a transmissible disease.
+
+The students had a sequence of 3 partners.   In interacting with each
+partner they mixed the fluids in their cups and then split the mixed
+fluid between them.  In this way, the acid was transmitted from one
+student's cup to another.
+
+All the interactions were synchronous, meaning that if student A was the first partner of student B, then B was the first partner of A as well, and similarly for second and third partners.  
+
+{\bf After} interacting with all 3 partners, in order, each student's fluid
+was tested to see if it contained the acid.  If so, it was deemed
+``infected''.  The column labelled ``infected'' refers only to the
+individual student in the left-most column.  To see if the partners
+were also infected, you have to look up their rows in the table.
+
+
+\begin{tabular}{l|lll|r}
+Student & Partner 1 & Partner 2 & Partner 3 & Infected\\\hline
+ Solomon & Cole & Brendan & Navodhya  & yes\\
+ Joel &  Gus & Tommy  & Dalante  & no \\
+ Blaire &  Taylor & Nina  &  Anna & yes \\
+ Taylor &  Blaire & Bridget  & Nina  &  no\\ 
+ Brendan &  Charlie & Solomon  & Cait  & yes  \\
+ Charlie (H.) &  Brendan & Sam  & Bridget  & no\\ 
+ Bridget &  Nina & Taylor  & Charlie  & no \\
+ Tommy &  Navodhya & Joel  & Netta  & yes\\ 
+ Nina &  Bridget & Blaire   & Taylor  & no   \\
+ Anna &  Mr. Dyar & Netta  & Blaire  &  yes \\
+ Gus &  Joel & Dalante  & Mr. Dyar  & no \\
+ Cole &  Solomon & Mr. Dyar  & Sam  & no\\ 
+ Sam (M.) &  Dalante & Charlie  & Cole  & no\\ 
+ Dalante &  Sam & Gus  & Joel  & no\\
+ Cait &  Netta & Navodhya  & Brendan  & yes \\
+ Navodhya &  Tommy & Cait   &  Solomon & yes \\
+Netta & Cait & Anna & Tommy & yes \\
+Mr. Dyar & Anna & Cole & Gus & no\\\hline
+\end{tabular}
+
+\begin{enumerate}[(a)]
+\item Who was the index case?  Explain your reasoning.
+
+\TextEntry
+
+
+\begin{AnswerText}
+It's either Netta or Cait.  They are the only people who had all three of their partners infected.
+
+There's no way to tell from the data whether it was Netta or Cait.  (In fact, it was Cait who was given the "infected" cup.)
+
+\end{AnswerText}
+
+\item Suppose that instead of having 3 partners, each student had 4 or 5 partners before being tested.  Would it be easier or harder to determine who was the index case?
+
+\TextEntry
+
+\end{enumerate}

@@ -1,0 +1,126 @@
+\documentclass{article}
+\usepackage[margin=.35in]{geometry}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{import}
+\usepackage{enumerate}
+\usepackage{/users/kaplan/dropbox/Latex-stuff/Sweave}
+%\def\pgfsysdriver{pgfsys-tex4ht.def}
+\usepackage{tikz}
+%\usepackage{tex4ht}
+\input{/users/kaplan/kaplanfiles/AcroScore/includefiles/acroscore}
+%\input{/users/kaplan/kaplanfiles/AcroScore/includefiles/acro-html-ajax-macros} 
+
+\renewcommand{\RequestMyAnswer}{}
+
+\newcommand{\answerSpace}[1]{\vspace*{#1}}
+\newcommand{\MCinput}[1]{\input{Individual-Items/#1}}
+
+\newcommand{\oneOfThese}[2]{#1#2}
+% Exam A
+\newcommand{\examVersion}{A}\newcommand{\scramble}[4]{#1#2#3#4}
+\renewcommand{\oneOfThese}[2]{#2}
+% Exam B
+%\newcommand{\examVersion}{B}\newcommand{\scramble}[4]{#4#2#1#3}
+%\renewcommand{\oneOfThese}[2]{#1}
+
+\columnsep=30pt
+
+% Whether to show the answers.
+%\answersOn
+
+\begin{document}
+\noindent{\tiny \examVersion}
+
+\centerline{\large Math 108 --- Epidemiology --- Prof. Kaplan}
+ %
+\medskip
+ %
+\centerline{\large \sf Final Exam}
+%
+\bigskip
+\centerline{\large \sf December 15, 2010}
+
+
+
+\startAcroScore
+
+
+\begin{AcroScoreProblem}{epi-final-MC}
+
+% ====================
+
+\section*{Multiple Choice}
+
+\begin{enumerate}
+\begin{multicols}{2}
+\scramble%
+{\scramble{\item \MCinput{101}}%
+{\item \MCinput{102}}%
+{\item  \MCinput{103}}%
+{\item  \MCinput{104}}}%
+{\scramble{\item  \MCinput{105}}%
+{\item  \MCinput{106}}%
+{\item  \MCinput{108}}%
+{\item  \MCinput{109}}}%
+{\scramble{\item  \MCinput{110}}%
+{\item  \MCinput{111}}%
+{\item  \MCinput{112}}%
+{\item  \MCinput{113}}}%
+{\scramble{\item  \MCinput{114}}%
+{\item  \MCinput{115}}%
+{\item  \MCinput{116}}%
+{\item  \MCinput{117}}}%
+
+{\item  \MCinput{118}}
+{\item  \MCinput{119}}
+
+\scramble{\item  \MCinput{120}}%
+{\item  \MCinput{121}}%
+{\item  \MCinput{122}}%
+{\item  \MCinput{123}}
+
+
+\end{multicols}
+
+
+\newpage
+% One or the other of these two about causation.
+\input{Individual-Items/causation-macros}
+\oneOfThese{\item  \input \MCinput{124}}{\item  \input \MCinput{125}}
+
+%{\item  \input \MCinput{DTK102}}
+%{\item  \input \MCinput{DTK103}}
+%{\item  \input \MCinput{DTK104}}
+\end{enumerate}
+
+\newpage
+
+\section*{Short Answer}
+
+\begin{multicols}{2}
+\oneOfThese{\MCinput{126}}{\MCinput{127}}
+\end{multicols}
+
+\newpage
+\section*{Essays}
+
+\renewcommand{\TextEntry}[1][]{} % Don't print anything for \TextEntry
+
+\subsection*{Essay 1}
+\MCinput{DTK101}
+
+\vspace*{2in}
+
+\subsection*{Essay 2}
+\begin{multicols}{2}
+\MCinput{DTK105}
+\end{multicols}
+
+% Don't like this one: {\item  \MCinput{107}}
+
+\end{AcroScoreProblem}
+\finishAcroScore
+
+\end{document}

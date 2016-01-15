@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{enumerate}
+\usepackage[margin=.5in]{geometry}
+\usepackage{multicol}
+\usepackage{/users/kaplan/dropbox/Latex-stuff/Sweave}
+\pagestyle{empty}
+
+\begin{document}
+\bigskip
+\centerline{\large Math 125 --- Epidemiology --- In-Class Activity}
+ %
+\medskip
+ %
+\centerline{\large \sf Confounding and Stratification}
+
+\bigskip
+
+The table shows data from a study of injuries of moped riders in Spain.    (Source: {\em Essential Epidemiology}, p. 201, from Lardelli-Claret et al. (2003) ``Position on the moped, risk of head injury and helmet use: an example of confounding effect.''  {\em International Journal of Epidemiology} {\bf 32}:162-164)
+
+\bigskip
+\centerline{\begin{tabular}{lrrrrrr}
+  &\multicolumn{2}{c}{\hrulefill Driver\hrulefill} & 
+\multicolumn{2}{c}{\hrulefill Passenger\hrulefill} & 
+\multicolumn{2}{c}{\hrulefill Total \hrulefill} \\
+& Head & Other & Head & Other & Head & Other\\
+& injury &injury &injury &injury &injury &injury\\\hline
+No helmet & 17,869 & 51,900 & 3,052 & 12,522 & 20,921 & 64,422\\
+Helmet & 7,342 & 86,212 & 485 & 7,971 & 7,827 & 94,183\\\hline
+Total & 25,211 & 138,112 & 3,537 & 20,493 & 28,748 & 158,605\\
+\end{tabular}}
+
+\bigskip
+
+You are going to be computing six different odds ratios, listed below.  Divide up the work among the people in your group.
+
+
+\begin{multicols}{2}
+\subsection*{The Six Odds Ratios}
+
+You are going to examine whether wearing a helmet is associated with
+head injury and whether position on the moped is associated with head
+injury.  For each of these variables, you'll look both at the overall
+data and also stratifying for the other variable to avoid confounding.
+
+
+\paragraph{Helmets and head injury?}
+ 
+\begin{itemize}
+\item (1) What is the crude odds ratio for the association between not wearing a helmet (exposed) and head injury? 
+\item Now find the odds ratio for the association between wearing a helmet and head injury, but stratified by whether the person was a driver or passenger.  Is there any reason to think that position is a confounder for the relationship between wearing a helmet and head injury.  That is, compute the odds ratios separately for 
+\begin{itemize}
+\item (2) the drivers and 
+\item (3) the passengers.
+\end{itemize}
+\end{itemize}
+
+
+\paragraph{Position on the moped and head injury}
+
+\begin{itemize}
+\item (4) What is the crude odds ratio for the association between position and head injury?
+\item Now stratify this by whether or not the person was wearing a helmet. 
+\begin{itemize}
+\item (5) Wearing a helmet.
+\item (6) No helmet.
+\end{itemize}
+\end{itemize}
+
+\hrulefill
+
+\subsection*{Basic Technique}
+
+Each person should construct a $2 \times 2$ table and fill it in with the appropriate entries from the above table.  You may want to circle the numbers in the table, inserting them as A, B, C, and D.
+
+\bigskip
+\centerline{\begin{tabular}{|l|l|l|}\hline
+ & Cases & Controls\\\hline
+Exposed $=$ \hspace*{.5in}. & A $=$ \hspace*{0.5in} & B $=$ \hspace*{0.5in}\\
+ & & \\\hline
+Not Exposed $=$ \hspace*{.5in}. & C  $=$ \hspace*{0.5in} & D  $=$\hspace*{0.5in}\\
+ & & \\\hline
+\end{tabular}}
+\bigskip
+
+Odds ratio:
+
+\bigskip
+
+For each of your odds ratios, calculate a 95\% confidence interval.  The procedure is this:
+\begin{enumerate}
+\item From your table of counts, calculate the odds ratio: $R = a d / b c$.  Calculate the natural logarithm of this, calling it $L$.
+\item Calculate $S = \sqrt{1/a + 1/b + 1/c + 1/d}$.
+\item Compute the two values upper$=L + 2 S$ and lower$=L-2S$.
+\item Take $exp(\mbox{upper})$ and $exp(\mbox{lower})$ as the upper and lower bounds of your  95\% confidence interval.
+\end{enumerate}
+
+\bigskip
+
+95\% Confidence Interval: 
+
+\bigskip
+
+\hrulefill
+
+\end{multicols}
+\end{document}

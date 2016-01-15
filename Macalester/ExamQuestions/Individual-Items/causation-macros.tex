@@ -1,0 +1,20 @@
+\newcommand{\Person}[1]{
+\draw[ultra thick] (#1) circle (.4cm);
+}
+\newcommand{\Exposed}[1]{
+\draw[ultra thick,fill=gray!50] (#1) circle (.4cm);
+}
+\newcommand{\Sick}[1]{
+\draw[ultra thick] (#1) -- +(.25,.25);
+\draw[ultra thick] (#1) -- +(.25,-.25);
+\draw[ultra thick] (#1) -- +(-.25,-.25);
+\draw[ultra thick] (#1) -- +(-.25,.25);
+}
+\newcommand{\PersonSick}[1]{
+\Person{#1}
+\Sick{#1}
+}
+\newcommand{\ExposedSick}[1]{
+\Exposed{#1}
+\Sick{#1}
+}

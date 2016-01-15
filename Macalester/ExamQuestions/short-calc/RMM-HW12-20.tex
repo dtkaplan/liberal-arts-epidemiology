@@ -1,0 +1,76 @@
+%% Author: RM Merrill
+%% Topic: Screening
+ 
+The PSA test involves measuring the concentration in blood of prostate-specific antigen.  In the test, a concentration greater than a specified threshold leads to a ``positive'' result, e.g., an indication of prostate cancer.
+
+In developing the test, researchers studied many different possible thresholds.  Here is a table giving the results for different levels of the threshold:
+
+\begin{center}
+\begin{tabular}{lrrrr}
+PSA Threshold & & & & \\
+(ng/mL) & TP & FP & FN & TN\\\hline
+1  & 131 & 1099 & 0 & 211\\
+2  & 123 &  958 & 8 & 352\\
+3  & 117 &  852 & 14 & 458\\
+4  & 110 & 786 & 21 & 524\\
+5  &  83 & 602 & 48 & 708\\
+6  &  63 & 407 & 68 & 903\\
+7  &  56 & 274 & 75 & 1036\\
+8  &  48 & 196 & 83 & 1114\\
+9  &  41 & 145 & 90 & 1165\\
+10&  33 & 106 & 98 & 1204\\
+15& 20 & 27 & 111 & 1283\\
+20& 14 & 27 & 117 & 1283\\ 
+\end{tabular}
+\end{center}
+
+\begin{enumerate}[(a)]
+\item The accuracy of the test is best at a threshold of 15 ng/mL.  Explain why, nonetheless, it might be better to use a much lower threshold.
+
+\TextEntry
+
+\begin{AnswerText}
+The accuracy of the test is high at 15 ng/mL, but only 20 out of 131
+of the positives are being detected (sensitivity) and only 20 out of
+47 of the people with positive tests actually have prostate cancer
+(specificity).
+
+At a threshold of 4 ng/mL, for example, the sensitivity is 110/131
+much higher but at the cost of a worse specificity.  Which is worse
+depends on whether it is worse to miss a case or to mis-classify a non-case.
+\end{AnswerText}
+
+\item All of the rows in the reported results in the table are for the same group of men.  How many men were there in the study?  How many of them had prostate cancer?
+
+\TextEntry
+\begin{AnswerText}
+There were $131+1099+211 = 1441$ men in the study.
+The number with prostate cancer is the sum of the
+true positives and false negatives in each row, which is 131.
+\end{AnswerText}
+
+\item The standard threshold currently in use is 4.  Compare the results for a threshold of 4 to 8 and make a good case for whether or not 8 would be a better threshold.
+
+\TextEntry
+\begin{AnswerText}
+The best threshold for the test depends on the relative costs of false
+positives and false negatives.  At a threshold of 4 the false negative
+rate is only one-quarter of the rate at a threshold of 8, but the
+false positive rate at threshold 4 is four times higher than that at threshold 8.  
+
+The ratio of false positives to false negatives at 4 is $786/21 = 37$
+whereas at 8 it is $196/83=2.36$.  If the relative harm done to a
+false negative is closer to 2 times that of the harm to a false
+positive, then 8 is a better choice.  If the relative harm is closer
+to 37, than 4 is a better threshold.
+\end{AnswerText}
+
+\item Suppose that, contrary to the sample of men used in the table, the prevalence of prostate cancer were much lower, say 1\%.  How would this change the sensitivity and specificity of the test?  (You don't have to do a calculation, just say whether and in what direction the sensitivity and specificity would change.)
+
+\TextEntry
+\begin{AnswerText}
+Sensitivity and specificity do not depend on the prevalence; they
+would be unchanged.
+\end{AnswerText}
+
+\end{enumerate}

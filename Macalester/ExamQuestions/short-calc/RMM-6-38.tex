@@ -1,0 +1,47 @@
+%% Author: RM Merrill
+%% Topic: Incidence Rate
+
+A cohort study involving Swedish females born between 1952 and 1989 assessed the association between eating disorders and parental education.  From the results of this study presented in the table, calculate an appropriate measure to indicate whether a relationship exists between mother's education and the daughter's risk of having an eating disorder and present your conclusion. 
+
+\begin{center}
+\begin{tabular}{lrrrr}
+Mother's & Number & Percent & Number of & Person-Years\\
+Education & & & Events & at Risk\\\hline
+Elementary & 2791 & 21.3 & 10 & 42592\\
+Secondary & 6365 & 48.5 & 21 & 80468\\
+Post-secondary & 3968 & 30.2 & 22 & 43358\\
+\end{tabular}
+\end{center} 
+
+\TextEntry
+
+\begin{TextEntry}
+We have person-years of exposure for each education level and the
+number of events, so we can calculate a rate.  To compare different
+education levels, take a rate ratio.
+
+The rates are:
+\begin{itemize}
+\item Elementary: $10/42592$, or 2.3 per 10000 person years
+\item Secondary: $21/80468$ or 2.6 per 10000 person years
+\item Post-secondary: $22/43358$ or 5.1 per 10000 person years.
+\end{itemize}
+
+In computing a rate ratio, you need to pick a baseline group.  In some
+sense the choice is arbitrary.  Here there is no obvious or intuitive
+connection between education level (of the parent) and eating
+disorders, so I'll pick ``Elementary'' as the base rate.
+
+\begin{itemize}
+\item Secondary / Elementary: $2.6/2.3$ or a rate ratio of 1.13
+\item Post-secondary / Elementary: $5.1/2.3$ or a rate ratio of 2.22
+  per 10000
+\end{itemize}
+
+These data indicate that daughters of mothers with a post-secondary
+education have more than twice the relative risk of eating disorders
+compared to daughters of mothers with an elementary eduction.
+
+Do keep in mind that the absolute risk is small.
+
+\end{TextEntry}

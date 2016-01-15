@@ -1,0 +1,72 @@
+
+You are 60 years old and need to put away money toward your retirement.  You will retire at age 65 and want to have an annual income of \$50,000.
+
+\bigskip
+
+How much money should you put away?
+
+\bigskip
+
+Here's a table of death probabilities for use in this problem:
+
+\bigskip
+
+\centerline{\begin{tabular}{l|cc}
+ & \multicolumn{2}{c}{Probability}\\
+Age & of dying & cumulatively \\\hline
+65 & 0.1 & 0.1\\
+70 & 0.1 & 0.2\\
+75 & 0.1 & 0.3\\
+80 & 0.3 & 0.6\\
+85 & 0.1 & 0.7\\
+90 & 0.1 & 0.8\\
+95 & 0.1 & 0.9\\
+100 & 0.05 & 0.95\\
+105 & 0.05 & 1.00\\
+\end{tabular}}
+
+\bigskip
+
+The payments start at 65, unless you happen to have died at 65.
+Everybody is dead by 105, so 40 years the longest time you would
+need to draw on your retirement.  The mean age at death is 82.25.  The
+median is 80.
+
+\begin{enumerate}
+\item Write down how much money you will put aside at age 60 to
+  support an annual income of \$50K per year for the rest of your life.
+  
+  
+\item You will then be given, at random, an age of actual death.
+  (Sorry!)  Calculate whether you had enough money in your savings to
+  pay you the annual amount, and how many life-years you were without funds.
+  
+\item Score yourself.  Your score will be
+  \begin{itemize}
+  \item 2 million points minus the amount you put into savings.  (So
+    if you put more into savings, your score is lower ...)
+  \item Subtract from that 100,000 points times the number of life
+    years you were without funds.
+  \end{itemize}
+  Example: You saved \$500,000 dollars and later found out that you
+  died at age 80.  Your savings are enough for 10 years, and you
+  retired at age 65, so you ran out of money at age 75.  This leaves
+  you 5 years without funds.  Your score is $2,000,000 - 500,000 - 5
+  \times 100,000 = 1,000,000$.
+
+  
+\end{enumerate}
+\newpage
+
+Note to Instructor:
+
+Your actual age at death will be randomly selected from one of these
+values, which correspond to the probabilities in the table.
+
+{ \Large
+<<>>=
+ages = c( rep(c(65,70,75,80,80,80,85,90,95),each=4),rep(c(100,105),each=2))
+matrix( ages, nrow=5 )
+@
+}
+

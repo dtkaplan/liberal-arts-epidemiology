@@ -1,0 +1,255 @@
+./WeeklyQuiz "Mid-Term Exam" "Oct. 25, 2011"  Epi0Mid-Term-F2011 "latex:\begin{multicols}{2}\section*{Short Answer}" health-statistics/101.tex study-design/106.tex health-statistics/102.tex  "latex:\columnbreak" vocabulary/101.tex "latex:\newpage\section*{Multiple Choice}" study-design/101.tex  study-design/103.tex study-design/105.tex "latex:\columnbreak\section*{Calculation}" study-design/109.tex "latex:\end{multicols}\newpage" health-statistics/108.tex  health-statistics/106.tex 
+
+./WeeklyQuiz "Mid-Term Exam" "Oct. 25, 2011"  Epi-Mid-Term-F2011-v2 "latex:\begin{multicols}{2}" "latex:\section*{Multiple Choice}" study-design/101.tex  study-design/103.tex study-design/105.tex "latex:\section*{Calculation}" study-design/109.tex "latex:\end{multicols}" "latex:\hrulefill\medskip" health-statistics/108.tex  health-statistics/106.tex "latex:\newpage\begin{multicols}{2} \section*{Short Answer}" health-statistics/101.tex study-design/106.tex health-statistics/102.tex  "latex:\columnbreak" vocabulary/101.tex "latex:\end{multicols}"
+
+./WeeklyQuiz "Mid-Term Exam" "Oct. 23, 2012" Epi-Mid-Term-F2012 \
+"latex:\begin{multicols}{2}" \
+JulieHoffer/quiz102.tex \
+"latex:\columnbreak" \
+JulieHoffer/quiz104.tex \
+"latex:\columnbreak" \
+JulieHoffer/quiz103.tex \
+"latex:\columnbreak" \
+JulieHoffer/quiz105.tex \
+"latex:\columnbreak" \
+health-statistics/106.tex \
+"latex:\end{multicols}" \
+JulieHoffer/quiz101-v2.tex 
+
+./WeeklyQuiz "Mid-Term Exam" "Oct. 23, 2012" Epi-Mid-Term-F2012-v2 \
+JulieHoffer/quiz101.tex \
+"latex:\centerline{\rule{4in}{1pt}}" \
+"latex:\begin{multicols}{2}" \
+health-statistics/106.tex \
+"latex:\columnbreak" \
+JulieHoffer/quiz102.tex \
+"latex:\end{multicols}" \
+"latex:\centerline{\rule{4in}{1pt}}" \
+"latex:\begin{multicols}{2}" \
+JulieHoffer/quiz104.tex \
+"latex:\columnbreak" \
+JulieHoffer/quiz103.tex \
+"latex:\end{multicols}" \
+"latex:\centerline{\rule{4in}{1pt}}" \
+"latex:\begin{multicols}{2}" \
+JulieHoffer/quiz105.tex \
+"latex:\vfill" \
+"latex:\end{multicols}" 
+
+# 2012 Final Exam
+
+./WeeklyQuiz "Final Exam" "Dec. 15, 2012" Epi-Final-F2012 \
+"latex:\renewcommand{\TextEntry}[1][]{\answerSpace{1in}}" \
+"latex:\begin{multicols}{2}" \
+JulieHoffer/final101.tex \
+"latex:\columnbreak" \
+JulieHoffer/final102.tex \
+"latex:\columnbreak" \
+JulieHoffer/final103.tex \
+JulieHoffer/final105.tex \
+"latex:\columnbreak" \
+JulieHoffer/final106.tex \
+"latex:\columnbreak" \
+JulieHoffer/final104.tex \
+JulieHoffer/final108.tex \
+"latex:\columnbreak" \
+JulieHoffer/final107.tex \
+JulieHoffer/final109.tex \
+JulieHoffer/final110.tex \
+"latex:\columnbreak" \
+JulieHoffer/final112.tex \
+JulieHoffer/final111.tex \
+"latex:\end{multicols}"
+
+# MORE REVIEW Problems
+JulieHoffer/final111.tex \
+
+# 2012 Review Problems
+./WeeklyQuiz "Review Questions" "$ $" Epi-Review-Collection-F2012 \
+"latex:\begin{multicols}{2}" \
+"latex:\bigskip%\fbox{hs103}" health-statistics/103.tex  \
+"latex:\bigskip%\fbox{hs104}" health-statistics/104.tex \
+"latex:\bigskip%\fbox{hs107}" health-statistics/107.tex \
+"latex:\bigskip%\fbox{hs109}" health-statistics/109.tex \
+"latex:\bigskip%\fbox{study102}" study-design/102.tex \
+"latex:\bigskip%\fbox{study107}" study-design/107.tex \
+"latex:\bigskip%\fbox{mc105}" mult-choice/105.tex \
+"latex:\bigskip%\fbox{mc103}" mult-choice/103.tex \
+"latex:\bigskip%\fbox{mc107}" mult-choice/107.tex \
+"latex:\bigskip%\fbox{mc109}" mult-choice/109.tex \
+"latex:\bigskip%\fbox{mc111}" mult-choice/111.tex \
+"latex:\bigskip%\fbox{mc114}" mult-choice/114.tex \
+"latex:\bigskip%\fbox{mc115}" mult-choice/115.tex \
+"latex:\bigskip%\fbox{mc123}" mult-choice/123.tex \
+"latex:\bigskip%\fbox{mc127}" mult-choice/127.tex \
+"latex:\bigskip%\fbox{mcDTK103}" mult-choice/DTK103.tex \
+"latex:\bigskip%\fbox{mcDTK104}" mult-choice/DTK104.tex \
+"latex:\bigskip%\fbox{RMM-9-12}" mult-choice/RMM-9-12.tex \
+"latex:\bigskip%\fbox{RMM-9-23}" short-essay/RMM-9-23.tex \
+"latex:\bigskip%\fbox{RMM-9HW-29}" short-calc/RMM-9HW-29.tex \
+"latex:\bigskip%\fbox{RMM-6-38}" short-calc/RMM-6-38.tex \
+"latex:\bigskip%\fbox{RMM-7HW-19}" mult-choice/RMM-7HW-19.tex \
+"latex:\end{multicols}"
+
+# REVIEW FOR FINAL for 2012
+x15"latex:\bigskip%\fbox{mc116}" mult-choice/116.tex \
+x16"latex:\bigskip%\fbox{mc119}" mult-choice/119.tex \
+x19 "latex:\bigskip%\fbox{mcDTK102}" mult-choice/DTK102.tex \
+x22"latex:\bigskip%\fbox{mcDTK105}" mult-choice/DTK105.tex \
+x 23"latex:\bigskip%\fbox{RMM-9-7}" short-essay/RMM-9-7.tex  \
+x 26"latex:\bigskip%\fbox{RMM-9HW-6}" mult-choice/RMM-9HW-6.tex \
+x30"latex:\bigskip%\fbox{RMM-12-7}" mult-choice/RMM-12-7.tex \
+x31"latex:\bigskip%\fbox{RMM-12-9}" mult-choice/RMM-12-9.tex \
+x31"latex:\bigskip%\fbox{RMM-HW12-1}" mult-choice/RMM-HW12-1.tex \
+
+./WeeklyQuiz "Review Questions" "$ $" Epi-Review-Collection-F2011 \
+"latex:\begin{multicols}{2}" \
+"latex:\bigskip%\fbox{hs103}" health-statistics/103.tex  \
+"latex:\bigskip%\fbox{hs104}" health-statistics/104.tex \
+"latex:\bigskip%\fbox{hs107}" health-statistics/107.tex \
+"latex:\bigskip%\fbox{hs109}" health-statistics/109.tex \
+"latex:\bigskip%\fbox{study102}" study-design/102.tex \
+"latex:\bigskip%\fbox{study107}" study-design/107.tex \
+"latex:\bigskip%\fbox{mc105}" mult-choice/105.tex \
+"latex:\bigskip%\fbox{mc103}" mult-choice/103.tex \
+"latex:\bigskip%\fbox{mc107}" mult-choice/107.tex \
+"latex:\end{multicols}" \
+"latex:\bigskip%\fbox{necessary-sufficient}" causation/necessary-sufficient.tex \
+"latex:\newpage" \
+"latex:\begin{multicols}{2}" \
+"latex:\bigskip%\fbox{mc109}" mult-choice/109.tex \
+"latex:\bigskip%\fbox{mc111}" mult-choice/111.tex \
+"latex:\bigskip%\fbox{mc114}" mult-choice/114.tex \
+"latex:\bigskip%\fbox{mc115}" mult-choice/115.tex \
+"latex:\bigskip%\fbox{mc116}" mult-choice/116.tex \
+"latex:\bigskip%\fbox{mc119}" mult-choice/119.tex \
+"latex:\bigskip%\fbox{mc123}" mult-choice/123.tex \
+"latex:\bigskip%\fbox{mc127}" mult-choice/127.tex \
+"latex:\bigskip%\fbox{mcDTK102}" mult-choice/DTK102.tex \
+"latex:\bigskip%\fbox{mcDTK103}" mult-choice/DTK103.tex \
+"latex:\bigskip%\fbox{mcDTK104}" mult-choice/DTK104.tex \
+"latex:\bigskip%\fbox{mcDTK105}" mult-choice/DTK105.tex \
+"latex:\bigskip%\fbox{RMM-9-7}" short-essay/RMM-9-7.tex  \
+"latex:\bigskip%\fbox{RMM-9-12}" mult-choice/RMM-9-12.tex \
+"latex:\bigskip%\fbox{RMM-9-23}" short-essay/RMM-9-23.tex \
+"latex:\bigskip%\fbox{RMM-9HW-6}" mult-choice/RMM-9HW-6.tex \
+"latex:\bigskip%\fbox{RMM-9HW-29}" short-calc/RMM-9HW-29.tex \
+"latex:\bigskip%\fbox{RMM-6-38}" short-calc/RMM-6-38.tex \
+"latex:\bigskip%\fbox{RMM-7HW-19}" mult-choice/RMM-7HW-19.tex \
+"latex:\bigskip%\fbox{RMM-12-7}" mult-choice/RMM-12-7.tex \
+"latex:\bigskip%\fbox{RMM-12-9}" mult-choice/RMM-12-9.tex \
+"latex:\bigskip%\fbox{RMM-HW12-1}" mult-choice/RMM-HW12-1.tex \
+"latex:\end{multicols}"
+
+#From the mid-term
+"latex:\bigskip\fbox{study101}" study-design/101.tex \ #mid-term
+"latex:\bigskip\fbox{study103}" study-design/103.tex \ #mid-term
+"latex:\bigskip\fbox{study106}" study-design/106.tex \ #mid-term
+"latex:\bigskip\fbox{study109}" study-design/109.tex \ #mid-term
+
+#Necessary and sufficient
+"latex:\bigskip\fbox{mc124}" mult-choice/124.tex \ 
+"latex:\bigskip\fbox{mc125}" mult-choice/125.tex \
+
+"latex:\bigskip\fbox{hs105}" health-statistics/105.tex \
+"latex:\bigskip\fbox{study108}" study-design/108.tex \
+"latex:\bigskip\fbox{mc104}" mult-choice/104.tex \
+"latex:\bigskip\fbox{mc106}" mult-choice/106.tex \
+"latex:\bigskip\fbox{RMM-9-8}" short-essay/RMM-9-8.tex \
+"latex:\bigskip\fbox{RMM-9-16}" short-essay/RMM-9-16.tex \
+"latex:\bigskip\fbox{RMM-9-36}" mult-choice/RMM-9-36.tex \
+"latex:\bigskip\fbox{RMM-9HW-23}" mult-choice/RMM-9HW-23.tex \
+"latex:\bigskip\fbox{RMM-6-22}" mult-choice/RMM-6-22.tex \
+"latex:\bigskip\fbox{RMM-12-2}" mult-choice/RMM-12-2.tex \
+"latex:\bigskip\fbox{mc127}" mult-choice/127.tex \
+"latex:\bigskip\fbox{mc122}" mult-choice/122.tex \
+
+./WeeklyQuiz "Final Exam" "Dec. 17, 2011" Epi-Final-F2011 \
+"latex:\renewcommand{\TextEntry}[1][]{\answerSpace{1in}}" \
+"latex:\begin{multicols}{2}" \
+"latex:\fbox{study104}" study-design/104.tex \
+"latex:\fbox{study105}" study-design/105.tex \
+"latex:\fbox{mc101}" mult-choice/101.tex  \
+"latex:\fbox{mc102}" mult-choice/102.tex \
+"latex:\fbox{mc108}" mult-choice/108.tex \
+"latex:\fbox{mc110}" mult-choice/110.tex \
+"latex:\fbox{mc112}" mult-choice/112.tex \
+"latex:\fbox{RMM-9HW-10}" mult-choice/RMM-9HW-10.tex \
+"latex:\fbox{mc113}" mult-choice/113.tex \
+"latex:\fbox{RMM-9HW-5}" mult-choice/RMM-9HW-5.tex \
+"latex:\fbox{RMM-9-hill}" mult-choice/RMM-9-hill.tex \
+"latex:\fbox{mc120}" mult-choice/120.tex \
+"latex:\fbox{mc117}" mult-choice/117.tex \
+"latex:\fbox{mc118}" mult-choice/118.tex \
+"latex:\fbox{mc121}" mult-choice/121.tex \
+"latex:\fbox{RMM-12-15}" mult-choice/RMM-12-15.tex \
+"latex:\fbox{RMM-7-11}" mult-choice/RMM-7-11.tex \
+"latex:\newpage\subsection*{Short Calculation}" \
+"latex:\fbox{sc126}" short-calc/126.tex \
+"latex:\fbox{RMM-HW12-20}" short-calc/RMM-HW12-20.tex \
+"latex:\end{multicols}" \
+"latex:\newpage\subsection*{Short Essay}" \
+"latex:\fbox{seDTK151}" short-essay/DTK151.tex \
+"latex:\vspace*{1in}" \
+"latex:\fbox{mcDTK101}" mult-choice/DTK101.tex \
+mult-choice/118.tex \
+mult-choice/121.tex \
+
+./WeeklyQuiz "Final Exam" "Dec. 17, 2011" Epi-Final-F2011 \
+"latex:\renewcommand{\TextEntry}[1][]{\answerSpace{1in}}" \
+"latex:\begin{multicols}{2}" \
+mult-choice/RMM-7-11.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/RMM-12-15.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/117.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/120.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/RMM-9-hill.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/RMM-9HW-5.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/113.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/RMM-9HW-10.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/112.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/110.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/108.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/102.tex \
+"latex:\vspace*{-.15in}" \
+mult-choice/101.tex  \
+"latex:\vspace*{-.15in}" \
+study-design/105.tex \
+"latex:\vspace*{-.15in}" \
+study-design/104.tex \
+"latex:\newpage\subsection*{Short Calculation}" \
+short-calc/126.tex \
+short-calc/RMM-HW12-20.tex \
+"latex:\end{multicols}" \
+"latex:\newpage\subsection*{Short Essay}" \
+short-essay/DTK151.tex \
+"latex:\vspace*{1in}" \
+mult-choice/DTK101.tex \
+
+
+./WeeklyQuiz "In-Class Course Evaluation" "Dec. 13, 2011" Epi-eval-in-class evaluation/F2011.tex
+
+
+# Activities
+# Annuity Game
+./WeeklyQuiz "An Annuity Game" "In-Class Activity" Epi-Annuity-Game trade-offs/annuity-game.tex 
+./WeeklyQuiz "Health-Care Choices" "In-Class Activity" Health-Care-Choices trade-offs/health-care-budget.tex 
+./WeeklyQuiz "QALY Methodology" "In-Class Activity" QALY-Methodology trade-offs/priority-activity.tex 
+
+
+# Homeworks
+acroProblemHTML EPI detection/detection-taxi.tex "Evaluating Eyewitness Evidence"
+./WeeklyQuiz "Evaluating Eyewitness Evidence" "Dec. 1, 2011" Epi-Eval-Eyewitness-Evidence" detection/detection-taxi.tex 
+
+# A problem based on Netta's experiment in Mr. Dyar's class at Saint Paul Academy, Mar 9, 2011
+acroProblemHTML EPI activities/spa-experiment "Spread and Index Case"

@@ -1,0 +1,76 @@
+Imagine you are a member of a jury judging a driving accident
+case.  A taxi was seen to back into a parked car one night, creasing
+the car's bodywork. The
+entire case against the taxi company rests on the evidence of one
+witness, an man who saw the accident from his apartment window.
+He says that he saw a blue 
+taxi backing into the car.  In trying to establish her case, the
+lawyer for the 
+car owner establishes the following facts:
+\begin{itemize}
+\item There are only two taxi companies in town, ``Blue Cabs'' and
+  ``Green Cabs.''  On the night in question, 85\% of all taxis on the
+  road were green and 15\% were blue.
+\item The witness has undergone a third-party vision test under
+  conditions similar to those on the night in question, and has
+  demonstrated that he can successfully distinguish a blue taxi from a
+  green taxi 80\% of the time.
+\end{itemize}
+
+The standard for proof in civil cases (as opposed to criminal cases)
+is ``preponderance of evidence,'' often taken to mean that the claim
+against the defendant is more likely than not.
+
+Based on the information given above, how confident are you, the
+juror, in ruling in favor of the car owner collecting reasonable
+damages from the blue taxi company?
+
+\begin{MultipleChoice}[itemname=before]
+\wrong{Strongly against the ruling}
+\correct{Against the ruling}
+\wrong{Neutral}
+\wrong{For the ruling}
+\wrong{Strongly for the ruling}
+\end{MultipleChoice}
+
+
+Now do a calculation.   Construct a tree diagram with 100,000
+hypothetical cases. 
+\begin{enumerate}
+\item  Divide this into 85,000 green and 15,000 blue
+taxis.  
+\item Further divide each branch into what the witness saw:
+blue or green.  Use the 80 percent accuracy rate for the witness in
+filling this in. 
+\item You should have four end-points.  Use these to calculate the
+  probability that the taxi was blue {\em given} that the witness saw
+  blue.
+\end{enumerate}
+
+\begin{itemize}
+\item What is the probability of the taxi being blue, given that the
+witness saw blue?
+\SelectSetHoriz[itemname=prob]{0.41}{0.15,0.17,0.29,0.41,0.68,0.71,0.80,0.85}
+\end{itemize}
+
+Based on this calculated probability, how how confident are you, the
+juror, in ruling in favor of the car owner collecting reasonable
+damages from the blue taxi company?  (Please do not change 
+your previous answer to this question.) 
+
+\begin{MultipleChoice}[itemname=after]
+\wrong{Strongly against the ruling}
+\correct{Against the ruling}
+\wrong{Neutral}
+\wrong{For the ruling}
+\wrong{Strongly for the ruling}
+\end{MultipleChoice}
+
+\bigskip
+
+\noindent{\small Source: From Utts (2010), ``Unintentional lies in the
+  media: don't blame journalists for what we don't teach'' ICOTS8, who
+  drew from  Tversky and
+  Kahneman (1982), ``Evidential impact of base rates'' in {\em
+    Judgment under uncertainty: Heuristics and biases''}, pp. 153-160 }
+

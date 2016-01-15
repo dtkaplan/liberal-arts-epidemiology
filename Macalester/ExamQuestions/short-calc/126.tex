@@ -1,0 +1,47 @@
+In a cohort breast cancer study, a woman is considered to be ``exposed'' if she first gave birth at age 30 or older.  Out of a sample of 4540 women who gave birth to their first child {\bf before} the age of 30, there were 65 who developed breast cancer.  Of the 1628 women who first gave birth at age 30 or older, 31 developed breast cancer.
+
+\begin{enumerate}[(a)]
+
+\item Draw the appropriate $2\times 2$ table to represent the above information.  Double check it to make sure that you have it right.
+
+\answerSpace{1in}
+\begin{AnswerText}
+\begin{tabular}{lrrr}
+ & breast & & \\
+ & cancer & none & Total\\\hline
+exposed & 31 & 1597 & 1628\\
+not         & 65 & 4475 & 4540\\\hline
+Total      & 96 & 6072 & 6168\\
+\end{tabular}
+\end{AnswerText}
+
+\item Compute an appropriate measure of association between the exposure and disease and interpret this statistic in the context given.
+
+\answerSpace{1in}
+
+\begin{AnswerText}
+Since this is a cohort study, the risk ratio is a good measure of
+association.  (For a case-control study, the odds ratio could be used
+instead, with the odds ratio approximating the risk ratio.)
+
+Risk for exposed: $31/1628 = $19 per thousand.
+
+Risk for unexposed: $65/4540 = $14 per thousand.
+
+The risk ratio is $19/14 = 1.36$
+\end{AnswerText}
+
+\item What is the excess risk of breast cancer in those exposed?
+\answerSpace{1in}
+
+\begin{AnswerText}
+Excess risk is $19 - 14 = 5$ per thousand.
+\end{AnswerText}
+
+\item Estimate the proportion of the disease among the exposed that is attributed to the exposure.
+
+\answerSpace{1in}
+\begin{AnswerText}
+The attributable fraction is $(1-RR)/RR = 0.36/1.36 = 0.26$ or 26\%.
+
+\end{enumerate}
