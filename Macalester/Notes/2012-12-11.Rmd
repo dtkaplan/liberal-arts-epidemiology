@@ -201,4 +201,4 @@ Lecture on "Electrical Units of Measurement" (3 May 1883), published in Popular 
 QALY Methodology
 ------------
 
-Form groups and work through the [QALY exercise](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/QALY-Methodology.pdf).
+Form groups and work through the [QALY exercise](../Public/Activities/QALY-Methodology.pdf).

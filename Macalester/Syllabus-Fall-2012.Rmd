@@ -36,16 +36,6 @@ QE <- function(name) { # Estimation problem}
 [Feedback on Phase 1 of Island Descriptive Study](http://rpubs.com/dtkaplan/2253) --- scroll down to find your group.
 
 
-
-Course Resources
----------------
-
-* Instructions for [sharing Google Documents](https://docs.google.com/document/d/1mWZIwMWCd7mL2AWfXFOMhbmYFh9ZV7I5nmqQGQkip_M/edit) for group work and handing in.
-
-**Final Exam Time**: Sat 15 Dec. 1:30-3:30 pm.  Make your travel plans accordingly!
-
-**Outline and Main Readings**:
-
 #### Background and Goals
 
 * Recommended learning outcomes from the public health consensus report on undergraduate education (pp. 15-16). This course is intended to meet completely the recommended learning outcomes for the model "Epidemiology 101" course.
@@ -59,14 +49,14 @@ Course Resources
 
 #### Outbreak & Spread of Disease (3 sessions) 
 * Essential Epidemiology Ch. 12
-* [Eradication of smallpox](http://dl.dropbox.com/u/5098197/Epidemiology/EradicationOfSmallpox.pdf)
+* [Eradication of smallpox](Public/EradicationOfSmallpox.pdf)
 * Better, "On washing hands" & "The mop-up" 
 * Planning for H1N1: the [PCAST Report](http://www.whitehouse.gov/assets/documents/PCAST_H1N1_Report.pdf)
 
 #### Cause and Effect (4 sessions)
 
 * Essential Epidemiology Ch. 6, 7, 8, 9, 10, 11
-* [Austin Bradford Hill on association and causation](http://dl.dropbox.com/u/5098197/Epidemiology/Hill_1965.pdf) 
+* [Austin Bradford Hill on association and causation](Public/Hill_1965.pdf) 
 
 #### Risk (4 sessions) 
 * Gigerenzer, "Communicating about Risk" (link)
@@ -80,7 +70,7 @@ Course Resources
 
 #### Evaluating Trade-Offs (3 sessions)
 * Know Your Chances, Ch. 6, 7
-* [A Primer on the Economics of Health Care](http://dl.dropbox.com/u/5098197/Epidemiology/ohe.pdf) 
+* [A Primer on the Economics of Health Care](Public/ohe.pdf) 
  
 #### Health-Care Reform (2 sessions)
 
@@ -113,7 +103,7 @@ Day-by-Day Syllabus
 * [Newspaper article about studying public health](http://www.washingtonpost.com/wp-dyn/content/article/2008/09/18/AR2008091804145.html?hpid=topnews)
 
 **In-class**:
-* [Risk charts](http://dl.dropbox.com/u/5098197/Epidemiology/799.pdf) from Woloshin, Schwartz, and Welch
+* [Risk charts](Public/799.pdf) from Woloshin, Schwartz, and Welch
 * <http://www.gapminder.org> site and video
 
 Notes`r I(todaysNotes("2012-09-06.html", ":"))`
@@ -159,7 +149,7 @@ Notes`r I(todaysNotes("2012-09-11.html", ":"))`
 
 **Reading**: 
 * *Essential Epidemiology Chap. 3*
-* [Truth and Death in Iraq under Sanctions](http://dl.dropbox.com/u/5098197/Epidemiology/Iraq-under-sanctions.pdf), (2010) *Significance* 7(3)
+* [Truth and Death in Iraq under Sanctions](Public/Iraq-under-sanctions.pdf), (2010) *Significance* 7(3)
 * *The Great Influenza*, remainder of part I, through p. 88
 
 **Assignment**: 
@@ -272,8 +262,8 @@ Notes`r I(todaysNotes("2012-09-11.html", ":"))`
 
 **Reading**: 
 
-* [Eradication of Polio](http://dl.dropbox.com/u/5098197/Epidemiology/EradicationOfSmallpox.pdf)
-* Atul Gawande, [The Cancer Cluster Myth](http://dl.dropbox.com/u/5098197/Epidemiology/clustermyth.pdf)
+* [Eradication of Polio](Public/EradicationOfSmallpox.pdf)
+* Atul Gawande, [The Cancer Cluster Myth](Public/clustermyth.pdf)
 
 **Assignment**:
 * Reading Reflection on *The Cancer Cluster Myth* `r I(RR("clustermyth"))`
@@ -288,7 +278,7 @@ Notes`r I(todaysNotes("2012-09-11.html", ":"))`
  
 
 **In-class**:
-* World Health Organization exercise on [population attributable fraction](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/Exercise_27_smoking_and_death.xls) (Finally!)
+* World Health Organization exercise on [population attributable fraction](Public/Activities/Exercise_27_smoking_and_death.xls) (Finally!)
 * [Hans Rossling on the spread of HIV](http://www.ted.com/talks/hans_rosling_the_truth_about_hiv.html)
 
 ---------------
@@ -423,7 +413,7 @@ Some movies to get your Epi fix while on break:
 
 **Reading**: 
 * **Essential Epidemiology**, Ch. 10
-* [Austin Bradford Hill on association and causation](http://dl.dropbox.com/u/5098197/Epidemiology/Hill_1965.pdf)
+* [Austin Bradford Hill on association and causation](Public/Hill_1965.pdf)
 * [The Poverty Lab](https://moodle.macalester.edu/mod/resource/view.php?id=15239)
 
 **Assignment**: 
@@ -434,9 +424,9 @@ Some movies to get your Epi fix while on break:
 * [TED talk on social experiments and poverty](http://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty.html)
 
 **In-class**:
-* Dealing with Confounding: [Moped injury activity](http://dl.dropbox.com/u/5098197/Epidemiology/moped-activity.pdf)
+* Dealing with Confounding: [Moped injury activity](Public/moped-activity.pdf)
 
-* [Necessary and sufficient exercise](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/necessary-and-sufficient-exercise.pdf)
+* [Necessary and sufficient exercise](Public/Activities/necessary-and-sufficient-exercise.pdf)
 
 ----------------
 
@@ -499,7 +489,7 @@ Some movies to get your Epi fix while on break:
 **Reading**: 
 * *Know your Chances*, Chap 5
 * [Plastic Panic](http://www.newyorker.com/reporting/2010/05/31/100531fa_fact_groopman#ixzz0ouYVlSDn)
-* [A training resource](http://dl.dropbox.com/u/5098197/Epidemiology/understanding-risk.pdf) from the UK National Health Service (NSH) on understanding and communicating risk. Before reading it, make sure you have some basic knowledge of Down Syndrome ([2](http://en.wikipedia.org/wiki/Down_syndrome), [3](http://en.wikipedia.org/wiki/Amniocentesis)) and Sickle Cell Anemia ([4](http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001554/), [5](http://en.wikipedia.org/wiki/Sickle-cell_disease)).
+* [A training resource](Public/understanding-risk.pdf) from the UK National Health Service (NSH) on understanding and communicating risk. Before reading it, make sure you have some basic knowledge of Down Syndrome ([2](http://en.wikipedia.org/wiki/Down_syndrome), [3](http://en.wikipedia.org/wiki/Amniocentesis)) and Sickle Cell Anemia ([4](http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001554/), [5](http://en.wikipedia.org/wiki/Sickle-cell_disease)).
 * [Risk Communications and Public Health](http://books.google.com/books?id=PBH3bxSqdy0C&pg=PA8&lpg=PA8&dq=bennett+%22fright+factors%22&source=bl&ots=mjGkD9PCGr&sig=vsW1xpwW20ZfDyZvhf3RDklT0jc&hl=en&ei=XBHQTuHUBuri2gWrvLzJDw&sa=X&oi=book_result&ct=result&resnum=5&ved=0CE0Q6AEwBA#v=onepage&q&f=false) 2nd edition (2010) Peter Bennet et al. eds. Chapter 1, "Understanding Public Responses to Risk" pp. 3-22
 * [Communicating about Risks to Public Health: Points to Good Practice](http://www.bvsde.paho.org/tutorial6/fulltext/pointers.pdf)
 
@@ -526,8 +516,8 @@ Some movies to get your Epi fix while on break:
 
 **On Your Own**:
 * [An effective intervention](http://www.ted.com/talks/lang/en/bunker_roy.html)
-* [Summary notes on detection theory](http://dl.dropbox.com/u/5098197/Epidemiology/detection.pdf)
-* [Slides from the class](http://dl.dropbox.com/u/5098197/Epidemiology/detection-new.ppt)
+* [Summary notes on detection theory](Public/detection.pdf)
+* [Slides from the class](Public/detection-new.ppt)
 
 **In-class**:
 * Accuracy, sensitivity, specificity, etc. 
@@ -563,7 +553,7 @@ Thanksgiving Break!
 * US Preventive Services task force [statement for "consumers"](http://www.uspreventiveservicestaskforce.org/prostatecancerscreening/prostatecancerfact.pdf) and the technical [evidence summary](http://www.uspreventiveservicestaskforce.org/prostatecancerscreening/prcascres.pdf)
 
 **In Class**:
-* [Ethnic profiling activity](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/detection-article.pdf)
+* [Ethnic profiling activity](Public/Activities/detection-article.pdf)
 * Screening for Mad-Cow disease
 
 **On Your Own**
@@ -586,7 +576,7 @@ Thanksgiving Break!
 
 **In-class**:
 * Screening for Mad-Cow disease
-* [Slides on Trade-Offs](http://dl.dropbox.com/u/5098197/Epidemiology/tradeoffs.pptx)
+* [Slides on Trade-Offs](Public/tradeoffs.pptx)
 
 
 `r I(classDayContents("Tues", "Dec", 4 ))`
@@ -595,7 +585,7 @@ Thanksgiving Break!
 **Reading**: 
 * Essential Epidemiology Ch. 14 (Prevention)
 * [Don Berwick's recommendations to the National Health Service.](http://www.kaiserhealthnews.org/Stories/2010/July/07/berwick-british-NHS-speech-transcript.aspx)
-* [Five-Hundred Life-Saving Interventions and their Cost Effectiveness](http://dl.dropbox.com/u/5098197/Epidemiology/500-interventions.pdf)
+* [Five-Hundred Life-Saving Interventions and their Cost Effectiveness](Public/500-interventions.pdf)
 * [A Possibly Fatal Mistake](http://www.nytimes.com/2012/10/14/opinion/sunday/kristof-a-possibly-fatal-mistake.html?pagewanted=all)
 
 **Assignment**: 
@@ -603,8 +593,8 @@ Thanksgiving Break!
 * Questions on "A possibly fatal mistake." `r I(RR("fatalmistake"))` 
 
 **In-class**:
-* [Allocating health-care resources](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/Health-Care-Choices.pdf)
-* [Risk Calculation -- Annuity Value](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/Epi-Annuity-Game.pdf)
+* [Allocating health-care resources](Public/Activities/Health-Care-Choices.pdf)
+* [Risk Calculation -- Annuity Value](Public/Activities/Epi-Annuity-Game.pdf)
 
 **On Your Own**:
 * [A critique of advertising tamoxifen](http://www.acponline.org/clinical_information/journals_publications/ecp/marapr00/womens.htm)
@@ -617,13 +607,13 @@ Thanksgiving Break!
 * Atul Gawande, *Better*
     * "The Bell Curve"
     * "For Performance"
-* Goldhill, ["How American Health Care Killed My Father"](http://dl.dropbox.com/u/5098197/Epidemiology/HowHealthCareKilledMyFather.pdf)
+* Goldhill, ["How American Health Care Killed My Father"](Public/HowHealthCareKilledMyFather.pdf)
 * [The Cost Cunundrum](http://www.newyorker.com/reporting/2009/06/01/090601fa_fact_gawande)
 * Bio-ethicist [Peter Singer](http://en.wikipedia.org/wiki/Peter_Singer) on [QALYs: Why we must ration health care](http://www.nytimes.com/2009/07/19/magazine/19healthcare-t.html?_r=1&pagewanted=all).
-* [QALYs on Wikipedia](http://dl.dropbox.com/u/5098197/Epidemiology/qaly-method.pdf)
+* [QALYs on Wikipedia](Public/qaly-method.pdf)
 
 **In-class**:
-* [Prioritizing health-care options](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/QALY-Methodology.pdf)
+* [Prioritizing health-care options](Public/Activities/QALY-Methodology.pdf)
 
 Upcoming Days
 -------------
@@ -635,7 +625,7 @@ Three review sessions will be held in Olin-Rice 254 (Math Computer Science Readi
 
 [Course evaluation form](https://docs.google.com/spreadsheet/viewform?formkey=dFRvcDY2dk9YYlY5YTVjVkVGSFJpYUE6MQ)
 
-A [collection of review questions](http://dl.dropbox.com/u/5098197/Epidemiology/Epi-Review-Collection-F2011.pdf) and a version with the [multiple choice answers marked](http://dl.dropbox.com/u/5098197/Epidemiology/Epi-Review-Collection-F2011-d701251881.pdf).
+A [collection of review questions](Public/Epi-Review-Collection-F2011.pdf) and a version with the [multiple choice answers marked](Public/Epi-Review-Collection-F2011-d701251881.pdf).
 
 
 
@@ -645,12 +635,12 @@ A [collection of review questions](http://dl.dropbox.com/u/5098197/Epidemiology/
 **Reading**: 
 * Atul Gawande, *Better*, "Afterward: Becoming a Positive Deviant"
 * Don Berwick (see this [news article](http://www.nytimes.com/2011/11/24/health/policy/dr-donald-m-berwick-resigns-as-head-of-medicare-and-medicaid.html?scp=2&sq=donald%20berwick&st=cse))
-    * From heroic to managed medicine: [The Epitaph of Profession](http://dl.dropbox.com/u/5098197/Epidemiology/bjgp_08_JohnHuntLecture_Berwick_AOP1.pdf)
-    * [The Science of Improvement](http://dl.dropbox.com/u/5098197/Epidemiology/JAMA-Berwick-1151.pdf)
-* [Does preventive care save money?](http://dl.dropbox.com/u/5098197/Epidemiology/661.pdf)
+    * From heroic to managed medicine: [The Epitaph of Profession](Public/bjgp_08_JohnHuntLecture_Berwick_AOP1.pdf)
+    * [The Science of Improvement](Public/JAMA-Berwick-1151.pdf)
+* [Does preventive care save money?](Public/661.pdf)
 
 **In-class**:
-* [QALY Methodology](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/QALY-Methodology.pdf)
+* [QALY Methodology](Public/Activities/QALY-Methodology.pdf)
 * [Course evaluation](https://docs.google.com/spreadsheet/viewform?formkey=dFRvcDY2dk9YYlY5YTVjVkVGSFJpYUE6MQ)
 
 **On Your Own**:

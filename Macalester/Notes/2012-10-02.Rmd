@@ -60,14 +60,14 @@ Basic tools:
 ### Epidemic Curves
 
 * Epidemic curve for a point-source epidemic.
-![EE Figure 12.4 point-source](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-12-4.png)
+![EE Figure 12.4 point-source](../Public/Figures/EE-Fig-12-4.png)
 * Epidemic curve for a propagative epidemic, in the early phases when the waves are still distinct. 
-![EE Figure 12.5](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-12-5.png)   
+![EE Figure 12.5](../Public/Figures/EE-Fig-12-5.png)   
 * The Danish tuberculosis epidemic.
-![EE Figure 12.6](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-12-6.png) 
+![EE Figure 12.6](../Public/Figures/EE-Fig-12-6.png) 
 * Conversion rate for students in different settings: 
-![EE Table 12.2](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Table-12-2.png)
-* Long-term tracking of cases ![EE Table 12.3](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Table-12-3.png)
+![EE Table 12.2](../Public/Figures/EE-Table-12-2.png)
+* Long-term tracking of cases ![EE Table 12.3](../Public/Figures/EE-Table-12-3.png)
 
 ### Discussion of P-CAST Report
 
@@ -91,7 +91,7 @@ Hand out the [transmission tokens](Activities/spread-simulation.pdf)
 
 ### Distribution of Diseases in Different Countries
 
-![EE Figure 12.1](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-12-1.png)  
+![EE Figure 12.1](../Public/Figures/EE-Fig-12-1.png)  
 A horrible, side-by-side pie chart graph.  Talk about how to make the graphic more effective.  The key principle is to bring adjacent the things that you want to compare.
 
 ### Outbreaks
@@ -105,33 +105,33 @@ Different types of outbreaks:
 ### Basic Information about Disease
 
 * Examples of diseases and conditions: Acute/Chronic, Infectious/Noninfectious, Communicable/Noncommunciable 
-![from MT p. 47](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/diseases3.png)
+![from MT p. 47](../Public/Figures/DiseaseSpread/diseases3.png)
 * Inanimate sources: 
-![inanimate sources](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/inanimate-sources.png)
+![inanimate sources](../Public/Figures/DiseaseSpread/inanimate-sources.png)
 * Portal of entry and exit: 
-![portals](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/portal.png)
+![portals](../Public/Figures/DiseaseSpread/portal.png)
 * Infectious disease names and classification 
-![Friis and Sellers p. 440](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/diseases2.png)
+![Friis and Sellers p. 440](../Public/Figures/DiseaseSpread/diseases2.png)
 * Bacterial Microbe Sources 
-![from MT p. 52](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/microbe-sources.png)  
+![from MT p. 52](../Public/Figures/DiseaseSpread/microbe-sources.png)  
 * Other Microbe Sources 
-![from MT p. 52](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/microbe-sources2.png)
+![from MT p. 52](../Public/Figures/DiseaseSpread/microbe-sources2.png)
 *Available vaccines 
-![from MT p. 62](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/vaccines-available.png from MT p. 62)
+![from MT p. 62](../Public/Figures/DiseaseSpread/vaccines-available.png) from MT p. 62
 
 ### Spread and Immunization
 
 * Severity 
-![severity](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/severity.png)
+![severity](../Public/Figures/DiseaseSpread/severity.png)
 * Sources of resistance 
-![resistance](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/resistance.png)
+![resistance](../Public/Figures/DiseaseSpread/resistance.png)
 
 ### Herd Immunity
 Diagram of a population, showing a low immunization level which
 falls short of protecting individuals within the group.
-![From MT p. 64](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/spread-and-immunization1.png) 
+![From MT p. 64](../Public/Figures/DiseaseSpread/spread-and-immunization1.png) 
 and effective immunization 
-![effective immunization](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/spread-and-immunization2.png)
+![effective immunization](../Public/Figures/DiseaseSpread/spread-and-immunization2.png)
 
-*[Levels of Preventive Measures](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/DiseaseSpread/levels-of-preventive-measures.png)
+*[Levels of Preventive Measures](../Public/Figures/DiseaseSpread/levels-of-preventive-measures.png)
 

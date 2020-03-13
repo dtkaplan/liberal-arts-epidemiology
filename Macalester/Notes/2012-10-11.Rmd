@@ -28,7 +28,7 @@ $\frac{dI}{dt} = \beta S I - \gamma I$
 <br />
 $\frac{dR}{dt} = \gamma I$
 
-Use the `mSIR( )` manipulate applet in R, install with `fetchData("mSIR.R"")`
+Use the `mSIR( )` manipulate applet in R, install with `source("http://tiny.cc/mosaic/mSIR.R"")`
 
 #### The Tipping Point
 
@@ -182,11 +182,11 @@ mysamp = sample( tab8.4, size=100)
 with(mysamp, table(condition))
 # Construct the sampling distribution from the population
 s = do(1000)*odds.ratio(with( sample(tab8.4,size=100), table(activity,condition )))
-hist(s)
+hist(s$odds.ratio)
 # Construct the resampling distribution from the sample itself
 s = do(1000)*odds.ratio(with( resample(mysamp), table(activity,condition )))
-hist(s)
-qdata(c(.025,.975),s$result)
+hist(s$odds.ratio)
+qdata(~ odds.ratio, p = c(.025,.975), data = s)
 ```
 * The standard error and the funnel plot: looking at lots of studies and comparing their odds ratios and standard errors: Start at time 9:30 in [http://www.ted.com/talks/ben_goldacre_battling_bad_science.html this TED video]
 * Hypothesis testing.  p-values.

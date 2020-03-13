@@ -25,7 +25,7 @@ I had dinner last night with a person who works at DeLoitte on human resources c
 
 Is medicine improving?  How has life expectancy changed in the last 100 years?
 
-![image](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/MT3.png)
+![image](../Public/Figures/MT3.png)
 
 
 #### Explanation of calculation.  
@@ -44,10 +44,10 @@ Deaths at an early age have a strong impact.  [A spreadsheet for investigating](
 
 
 * Child mortality measures from EE Table 2.7. \url{{EE5.pdf}}
-![image](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE5.png)
+![image](../Public/Figures/EE5.png)
 
 QALY, DALY, Healthy life expectancy, years of potential life lost: 
-![image](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE6.png)
+![image](../Public/Figures/EE6.png)
 
 
 ### Essential Epidemiology Chap 3
@@ -58,11 +58,11 @@ QALY, DALY, Healthy life expectancy, years of potential life lost:
     * ''Pneumocystis carinii'' pneumonia in young, previously healthy homosexual men.
 * What's a prevalence survey?
 * What's a disease registry?
-* Sources of data: [ Table 3.2](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Table-3-2.png)
+* Sources of data: [ Table 3.2](../Public/Figures/EE-Table-3-2.png)
 * Death certificate [US Standard Certificate](http://www.cdc.gov/nchs/data/dvs/death11-03final-acc.pdf)
     * Describe what happened in the two cases given as examples in the instructions.
     * Note the "common problems in death certification"
-* Birth certificate [Barack Obama, II](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/birth-certificate-long-form.pdf)  note how little health data is recorded.
+* Birth certificate [Barack Obama, II](../Public/Figures/birth-certificate-long-form.pdf)  note how little health data is recorded.
 * What's an ecological study?  What is the disadvantage of them?  
     * Example: employment is higher in cities with lots of immigration.  
     * Example: inverse relationship between SAT scores and expenditures.

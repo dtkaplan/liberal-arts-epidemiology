@@ -2,9 +2,9 @@
 %% Date=Dec 3, 2010
 %% Subject=Derivatives
 %% RelatesTo=Optimization
-<<echo=false,results=hide>>=
-#source("http://dl.dropbox.com/u/5098197/math135.r")
-source("/users/kaplan/Dropbox/Public/math135-local.r")
+<<echo=FALSE,results="hide">>=
+source("/../../../Public/math135.R")
+..#source("/users/kaplan/Dropbox/Public/math135-local.r")
 @ 
 
 \SweaveOpts{prefix.string=Figures/tradeoffs,keep.source=TRUE}
@@ -27,7 +27,7 @@ QALYs that would result from spending the indicated amount of money.
 By spending more money on an intervention, you can reach more people
 or produce a better outcome for those people who are reached.  
 
-<<qaly1,fig=true,pdf=true,include=false,width=8,height=8,echo=false>>=
+<<qaly1,fig=TRUE,pdf=TRUE,include=FALSE,width=8,height=8,echo=FALSE>>=
 money = seq(0,1000,length=1001)
 A = 500*pnorm(money, mean=300, sd=150) + .05*money
 A = A - min(A)

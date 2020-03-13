@@ -60,7 +60,7 @@ require(mosaic,quietly=TRUE)
 ```
 
 ```{r}
-w = fetchData("whickham.csv")
+w = read.csv("http://tiny.cc/mosaic/whickham.csv")
 with(w, table(smoker,outcome ))
 502*139/(443*230)
 ```
@@ -148,7 +148,7 @@ Criteria for a variable being a confounder
 * associated with the exposure of interest
 * not an intermediate between exposure and outcome.
 
-![Confounding diagram 8.3 in EE](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-8-3.png)
+![Confounding diagram 8.3 in EE](../Public/Figures/EE-Fig-8-3.png)
 
 Dealing with Confounding
 ------------------------
@@ -171,4 +171,4 @@ Dealing with Confounding
 
 Quick summary is easier: Use strata-specific OR or the adjusted OR if the strata are similar.
 
-![Figure 8.4 from EE](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-8-4.png)
+![Figure 8.4 from EE](../Public/Figures/EE-Fig-8-4.png)

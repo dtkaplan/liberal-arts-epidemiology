@@ -39,7 +39,7 @@ The question is not whether organic food consumption is associated with better h
 
 A basic notion of causation involves "necessary " and/or "sufficient."  It's worthwhile to examine this in detail, just because it is so basic.  But keep in mind that "neither necessary nor sufficient" is often the relationship between a causal factor and the effect.
 
-Hand out the [worksheet](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/necessary-and-sufficient-exercise.pdf).
+Hand out the [worksheet](../Public/Activities/necessary-and-sufficient-exercise.pdf).
 People should form into groups of at least 4 and fill in the worksheet for each of the following:
 
 * Necessary and Sufficient

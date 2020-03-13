@@ -81,21 +81,21 @@ Trade-Offs
 
 Weighing the costs and benefits 
 
-![p82](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/KnowYourChances-p82.png)
+![p82](../Public/Figures/KnowYourChances-p82.png)
 
 Division into"life-threatening" and "symptom" side effects
 
-![p83](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/KnowYourChances-p83.png)
+![p83](../Public/Figures/KnowYourChances-p83.png)
 
 Their tree on page 84
 
-![p84](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/KnowYourChances-p84.png)
+![p84](../Public/Figures/KnowYourChances-p84.png)
 
 They are doing triage, separating out the easy cases and leaving it to the individual for the hard cases.
 
 What's missing?  A strategy of "take the drug" and see if it's worthwhile for you.   
 
-![two possible graphs](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/KnowYourChances-Comment.png) 
+![two possible graphs](../Public/Figures/KnowYourChances-Comment.png) 
 
 benefits versus costs with "individual person" as the case:
 *Benefits positively correlated to cost --- more or less the same situation for everybody

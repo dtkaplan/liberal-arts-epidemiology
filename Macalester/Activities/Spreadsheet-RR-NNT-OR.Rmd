@@ -24,7 +24,7 @@ Below the table,  calculate each of the following, labelling the item appropriat
 * Relative Risk Reduction
 * Number Needed to Treat
 
-You may wish to refer to the formulas given in the "Relative Risk" handout, [here](https://dl.dropbox.com/u/5098197/Epidemiology/Activities/relative-risk-nnt.pdf).
+You may wish to refer to the formulas given in the "Relative Risk" handout, [here](../Public/Activities/relative-risk-nnt.pdf).
 
 **Spreadsheet Tab**: Odds Ratios
 --------------------------------

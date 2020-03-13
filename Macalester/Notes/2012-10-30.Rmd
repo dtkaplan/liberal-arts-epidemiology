@@ -50,7 +50,7 @@ require(mosaic,quietly=TRUE)
 ```
 
 ```{r}
-w = fetchData("whickham.csv")
+w = read.csv("http://tiny.cc/mosaic/whickham.csv")
 with(w, table(smoker,outcome ))
 502*139/(443*230)
 ```
@@ -138,7 +138,7 @@ Criteria for a variable being a confounder
 * associated with the exposure of interest
 * not an intermediate between exposure and outcome.
 
-![Confounding diagram 8.3 in EE](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-8-3.png)
+![Confounding diagram 8.3 in EE](../Public/Figures/EE-Fig-8-3.png)
 
 Dealing with Confounding
 ------------------------
@@ -161,10 +161,10 @@ Dealing with Confounding
 
 Quick summary is easier: Use strata-specific OR or the adjusted OR if the strata are similar.
 
-![Figure 8.4 from EE](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-8-4.png)
+![Figure 8.4 from EE](../Public/Figures/EE-Fig-8-4.png)
 
 ### Stratification Exercise
-Hand out [stratification exercise](http://dl.dropbox.com/u/5098197/Epidemiology/moped-activity.pdf).  
+Hand out [stratification exercise](../Public/moped-activity.pdf).  
 
 * Not using a helmet is clearly associated with head injury: OR about 4, doesn't change much when stratifying by position.
 * Position on the moped is not associated with head injury: OR for driver is about 1.06.
@@ -191,7 +191,7 @@ From [Freedman, Pisani, and Purves, Ch. 1](https://moodle.macalester.edu/file.ph
 
 ### Necessary and Sufficient Exercise
 
-Hand out the [worksheet](http://dl.dropbox.com/u/5098197/Epidemiology/Activities/necessary-and-sufficient-exercise.pdf).
+Hand out the [worksheet](../Public/Activities/necessary-and-sufficient-exercise.pdf).
 People should form into groups of at least 4 and fill in the worksheet for each of the following:
 
 * Necessary and Sufficient

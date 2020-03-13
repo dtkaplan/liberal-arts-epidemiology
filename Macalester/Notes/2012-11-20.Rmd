@@ -23,10 +23,10 @@ Screening and Detection
 
 ### Essential Epidemiology on Screening
 
-* First message is negative: [Box 15.1](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Box-15-1.png) 
+* First message is negative: [Box 15.1](../Public/Figures/EE-Box-15-1.png) 
     * Why do people seem to like screening?  Possibility: it removes one of the fright factors (the condition comes under your control).  It also introduces "certainty" into the process.  You "know" whether or not you have the condition.
 * What's needed for successful screening?
-    * [Time line for intervention](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Fig-15-1.png)
+    * [Time line for intervention](../Public/Figures/EE-Fig-15-1.png)
     * Condition should be severe, common, seen as a problem
     * Earlier detection should improve outcome
 * Biases
@@ -36,7 +36,7 @@ Screening and Detection
         * Story about grad student in the MIT magnet lab in the 80s: detected a Berry aneurism. She died when being operated on. No way to know whether it was really a problem.
 
 ### Basic calculations and statistics 
-Sensitivity, Specificity, PPV, NPV, Accuracy, Prevalence [Table 15.2](http://dl.dropbox.com/u/5098197/Epidemiology/Figures/EE-Table-15-2.png)
+Sensitivity, Specificity, PPV, NPV, Accuracy, Prevalence [Table 15.2](../Public/Figures/EE-Table-15-2.png)
 
 #### Tangle the Cancer Sniffing Dog
 

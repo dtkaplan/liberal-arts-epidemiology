@@ -51,7 +51,7 @@ For the people who give a number near 1, ask how many people have died in Tokyo 
 
 ### Quick Quiz on Risk and Heuristics
 
-[PDF file](https://dl.dropbox.com/u/5098197/Epidemiology/irrational-quiz.pdf)
+[PDF file](../Public/irrational-quiz.pdf)
 
 ### In the News
 
@@ -132,7 +132,7 @@ Heuristics and Biases from Pointer's Reading (p. 11)
 #### Activity looking at applicability of fright factors to various activities.
 
 
-[Activity hand-out](https://dl.dropbox.com/u/5098197/Epidemiology/fright-factors.pdf)
+[Activity hand-out](../Public/fright-factors.pdf)
 
 
 
@@ -181,11 +181,11 @@ We tend to categorize things at extremes: very likely or not likely.
 
 Estimated and actual frequency of deaths from various causes:
 
-![Box 3 from "Pointers" reading](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/pointers-Box3.png)
+![Box 3 from "Pointers" reading](../Public/Figures/pointers-Box3.png)
 
 #### Community Risk Scale
 
-![Box 4 from "Pointers" reading](https://dl.dropbox.com/u/5098197/Epidemiology/Figures/pointers-Box4.png)
+![Box 4 from "Pointers" reading](../Public/Figures/pointers-Box4.png)
 
 
 Measuring Risk

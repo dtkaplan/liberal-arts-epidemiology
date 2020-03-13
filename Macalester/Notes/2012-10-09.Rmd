@@ -56,7 +56,7 @@ $\frac{dI}{dt} = \beta S I - \gamma I$
 <br />
 $\frac{dR}{dt} = \gamma I$
 
-Use the `mSIR( )` manipulate applet in R, install with `fetchData("mSIR.R"")`
+Use the `mSIR( )` manipulate applet in R, install with `source("http://tiny.cc/mosaic/mSIR.R")`
 
 #### The Tipping Point
 

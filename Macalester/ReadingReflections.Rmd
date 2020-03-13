@@ -29,7 +29,7 @@ The last two questions for *every* reading reflections:
 
 ### Your Own APGAR score: <a name="apgarscore">Short Essay</a>
 
-One of the themes in Atul Gawande’s essay, “[The Score](http://www.newyorker.com/archive/2006/10/09/061009fa_fact?currentPage=1),” in *Better: A Surgeon’s Notes on Performance*, is the emergence of the APGAR score as a way to measure birth outcomes. Following the suggestion of former CDC head David Fraser in his [New England Journal of Medicine](http://dl.dropbox.com/u/5098197/Epidemiology/Fraser-NEJM-epidemiology.pdf) article that “analogic thinking” is an important aspect of epidemiology that can contribute to a liberal education, your assigned task is to invent an APGAR score of your own in an area of your own choosing. Some suggestions:
+One of the themes in Atul Gawande’s essay, “[The Score](http://www.newyorker.com/archive/2006/10/09/061009fa_fact?currentPage=1),” in *Better: A Surgeon’s Notes on Performance*, is the emergence of the APGAR score as a way to measure birth outcomes. Following the suggestion of former CDC head David Fraser in his [New England Journal of Medicine](Public/Fraser-NEJM-epidemiology.pdf) article that “analogic thinking” is an important aspect of epidemiology that can contribute to a liberal education, your assigned task is to invent an APGAR score of your own in an area of your own choosing. Some suggestions:
 
 * An APGAR score for academic advising at college. (DTK has proposed this at Macalester.) 
 * An APGAR score for sports performance. 
@@ -155,7 +155,7 @@ Third, say something about how you think health insurance should work:
 
 ### <a name="rhetoric">Rhetoric of Screening</a>
 
-Here is an [editorial from the Minneapolis Star Tribune](http://dl.dropbox.com/u/5098197/Epidemiology/breast-cancer-screening.pdf) on Aug 11, 2009.
+Here is an [editorial from the Minneapolis Star Tribune](Public/breast-cancer-screening.pdf) on Aug 11, 2009.
 Write a couple of paragraphs in the form of a letter to the editor taking on this editorial from an informed epidemiological perspective. Your letter might be supportive or critical of the editorial, but your point of view should be professional.
 
 As you pull together your thoughts in preparation for writing the letter, you might start by summarizing and explaining the arguments made in the editorial that the advantages of screening exceed the disadvantages. Are there any arguments that are rhetorical, mere turns of phrasing rather than careful reasoning?
